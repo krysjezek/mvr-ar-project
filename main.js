@@ -222,8 +222,3 @@ document.addEventListener('DOMContentLoaded', () => {
     await start();
   });
 });
-
-document.addEventListener('DOMContentLoaded', () => {
-  
-  start();
-});
