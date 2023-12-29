@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
       plane.material.opacity = 0;
   
       // VIDEO PLANE
-      const video = await loadVideo("./content/rickyzee.mp4")
+      const video = await loadVideo("./content/animace2.mp4")
       video.muted = true;
       video.loop = true; // make the video loop
       const videoTexture = new THREE.VideoTexture(video);
